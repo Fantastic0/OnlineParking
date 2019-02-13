@@ -1,10 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="MySpringArtifact:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/MySpringArtifact_war_exploded</output-path>
+  <artifact type="exploded-war" name="OnlineParkingArtifact:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/OnlineParkingArtifact_war_exploded</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="MySpringArtifact" />
+          <element id="module-output" name="OnlineParkingArtifact" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.18.RELEASE" />
@@ -33,7 +33,7 @@
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
         </element>
       </element>
-      <element id="javaee-facet-resources" facet="MySpringArtifact/web/Web" />
+      <element id="javaee-facet-resources" facet="OnlineParkingArtifact/web/Web" />
     </root>
   </artifact>
 </component>
