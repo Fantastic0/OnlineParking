@@ -48,13 +48,6 @@ public class MainController {
 
     }
 
-    @RequestMapping(value = "deleteItem")
-    public String deleteItem(@RequestParam(name = "id") Long id){
-
-        DBUtil dbUtil = new DBUtil();
-        dbUtil.deleteItem(id);
-        return "redirect:/index";
-
-    }
+    
 
 }
