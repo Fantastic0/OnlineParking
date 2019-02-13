@@ -39,15 +39,5 @@ public class MainController {
 
     }
 
-    @RequestMapping(value = "editItem", method = RequestMethod.POST)
-    public String editItem(@RequestParam(name = "id") Long id, @RequestParam(name = "name") String name, @RequestParam(name = "price") double price){
-
-        DBUtil dbUtil = new DBUtil();
-        dbUtil.editItem(id, name, price);
-        return "redirect:/index";
-
-    }
-
-    
 
 }
